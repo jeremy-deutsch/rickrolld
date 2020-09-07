@@ -1,0 +1,110 @@
+{
+  "author": "Zach Fox",
+  "mapsJSONVersion": "v1.1.0",
+  "comments": "An example JSON file that can be imported into High Fidelity. The `mapsJSONVersion` key/value pair should be kept up-to-date with what is in `MapController.js`. Contact the High Fidelity team for assistance.",
+  "maps": [
+    {
+      "mapName": "Demo Map",
+      "mapImageSrc": "https://hifi-content.s3.amazonaws.com/zfox/temp/playa.jpg",
+      "mapLandmarks": [
+        {
+          "name": "Rick Roll'd",
+          "positionSU": {
+            "x": 30,
+            "y": 25,
+            "z": 0
+          },
+          "widthSU": 1,
+          "heightSU": 1,
+          "hexColor": "#c634eb",
+          "textHexColor": "#000000",
+          "href": "https://jeremy-deutsch.github.io/rickrolld/",
+          "imageHref": "https://i.imgur.com/R8GMYxz.png"
+        },
+        {
+          "name": "Actual YouTube",
+          "positionSU": {
+            "x": 20,
+            "y": 15,
+            "z": 0
+          },
+          "widthSU": 1,
+          "heightSU": 1,
+          "hexColor": "#c634eb",
+          "textHexColor": "#000000",
+          "href": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+          "imageHref": "https://i.imgur.com/R8GMYxz.png"
+        },
+        {
+          "name": "Burning Man",
+          "positionSU": {
+            "x": 20,
+            "y": 20,
+            "z": 0
+          },
+          "radiusSU": 2,
+          "hexColor": "#000000",
+          "href": "https://burningman.org/"
+        },
+        {
+          "name": "example.com",
+          "positionSU": {
+            "x": 20,
+            "y": 25,
+            "z": 0
+          },
+          "widthSU": 1,
+          "heightSU": 3,
+          "rotationDegrees": 45,
+          "hexColor": "#AA0000",
+          "textHexColor": "#CCCCCC",
+          "href": "https://example.com/"
+        },
+        {
+          "name": "Transparent Landmark",
+          "positionSU": {
+            "x": 20,
+            "y": 30,
+            "z": 0
+          },
+          "radiusSU": 2,
+          "hexColor": "#00000000",
+          "href": "https://google.com/"
+        },
+        {
+          "name": "👽",
+          "positionSU": {
+            "x": 20,
+            "y": 35,
+            "z": 0
+          },
+          "radiusSU": 0.8,
+          "hexColor": "#CEE3F8",
+          "href": "https://reddit.com/"
+        },
+        {
+          "name": "No Link",
+          "positionSU": {
+            "x": 20,
+            "y": 40,
+            "z": 0
+          },
+          "radiusSU": 1.2,
+          "hexColor": "#fcba03",
+          "textHexColor": "#AAAAAA"
+        },
+        {
+          "name": " ",
+          "positionSU": {
+            "x": 20,
+            "y": 45,
+            "z": 0
+          },
+          "radiusSU": 0.1,
+          "hexColor": "#00c8ff",
+          "href": "https://tinyurl.com/"
+        }
+      ]
+    }
+  ]
+}
